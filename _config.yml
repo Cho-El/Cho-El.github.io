@@ -106,12 +106,12 @@ plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
 feed:
   path: feed.xml
 
-# Travis-CI 설정입니다.
+# Travis-CI 설정입니다. 자동화 배포와 빌드를 자동화시켜준다.
 safe: False
 lsi: False
 
-username: moon9342
-repo: GitHubPageMaker
+username: Cho-El
+repo: Cho-El.github.io
 # username : travis-ci와 연동하는 github의 username
 # repo: travis-ci와 연동하는 github의 repository이름
 # https://github.com/<username>/<repository>
@@ -145,7 +145,7 @@ exclude:
   - assets/images
   - _posts/angular
   - _posts/et-cetera
-  - _posts/python
+  # - _posts/python
   - _posts/typescript
 #  - _posts/jekyll
   - _posts/iot
