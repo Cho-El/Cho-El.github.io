@@ -5,7 +5,7 @@ Cho-El :
   url:
   bio: Sejong University
                         # 회사정보
-  picture:   # author image
+  picture: assets/built/images.author-image.jpg  # author image
   facebook:             # facebook ID
   twitter:              # twitter ID
   cover: False
