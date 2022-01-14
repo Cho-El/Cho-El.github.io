@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/tag/python/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-01-12T03:33:06+09:00</updated>
-  <id>http://localhost:4000/tag/python/feed.xml</id>
+  <link href="https://cho-el.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://cho-el.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-01-14T03:07:26+09:00</updated>
+  <id>https://cho-el.github.io/tag/python/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="http://localhost:4000/p" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <link href="https://cho-el.github.io/p" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
       <published>2020-06-08T01:40:00+09:00</published>
       <updated>2020-06-08T01:40:00+09:00</updated>
-      <id>http://localhost:4000/p</id>
-      <content type="html" xml:base="http://localhost:4000/p">&lt;p&gt;ssssfffffffffffff&lt;/p&gt;</content>
+      <id>https://cho-el.github.io/p</id>
+      <content type="html" xml:base="https://cho-el.github.io/p">&lt;p&gt;ssssfffffffffffff&lt;/p&gt;</content>
 
       
       
@@ -67,11 +67,11 @@
   
     <entry>
       <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="http://localhost:4000/python-basic-copy" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <link href="https://cho-el.github.io/python-basic-copy" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
       <published>2020-06-08T01:40:00+09:00</published>
       <updated>2020-06-08T01:40:00+09:00</updated>
-      <id>http://localhost:4000/python-basic%20copy</id>
-      <content type="html" xml:base="http://localhost:4000/python-basic-copy">&lt;h1 id=&quot;1-ruby-다운&quot;&gt;1. Ruby 다운&lt;/h1&gt;
+      <id>https://cho-el.github.io/python-basic%20copy</id>
+      <content type="html" xml:base="https://cho-el.github.io/python-basic-copy">&lt;h1 id=&quot;1-ruby-다운&quot;&gt;1. Ruby 다운&lt;/h1&gt;
 
 &lt;h1 id=&quot;2-bundler-설치&quot;&gt;2. bundler 설치&lt;/h1&gt;
 
