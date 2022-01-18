@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://cho-el.github.io/author/Cho-El/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://cho-el.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-01-16T21:48:06+09:00</updated>
+  <updated>2022-01-18T11:39:39+09:00</updated>
   <id>https://cho-el.github.io/author/Cho-El/feed.xml</id>
 
   
@@ -32,12 +32,94 @@
 
   
     <entry>
+      <title type="html">Jekyll 문법</title>
+      <link href="https://cho-el.github.io/Jekyll" rel="alternate" type="text/html" title="Jekyll 문법" />
+      <published>2022-01-17T06:10:00+09:00</published>
+      <updated>2022-01-17T06:10:00+09:00</updated>
+      <id>https://cho-el.github.io/Jekyll</id>
+      <content type="html" xml:base="https://cho-el.github.io/Jekyll">&lt;h1 id=&quot;1-ruby-다운&quot;&gt;1. Ruby 다운&lt;/h1&gt;
+
+&lt;h1 id=&quot;2-bundler-설치&quot;&gt;2. bundler 설치&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bundler : 지킬을 실행시켜주는 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;2-jekyll-템플릿-사용&quot;&gt;2. Jekyll 템플릿 사용&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Jekyll이란?&lt;/p&gt;
+
+    &lt;p&gt;정적 사이트 생성기로, Liquid template 기반으로 마크다운형식의 텍스트파일을 HTML로 변환해주는 변환 도구이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;원하는 템플릿 선택 후 해당 폴더에 코드 복붙&lt;/li&gt;
+  &lt;li&gt;템플릿 실행을 위한 bundle 설치&lt;/li&gt;
+  &lt;li&gt;cmd창에서 폴더 이동 후, bundle 설치&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Users&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;yoon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Desktop&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;성윤이&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;파일&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;포폴&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;사이트&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Cho&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;El&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Users&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;yoon&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Desktop&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;성윤이&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;파일&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;포폴&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;사이트&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Cho&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;El&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bundle exec jekll serve로 jekyll 서버 구동&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;Please&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;following&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Gemfile&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;avoid&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;polling&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;changes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;wdm&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;gt;= 0.1.0&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;win_platform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;⇒ 오류 발생1 : Gamfile에 gem ‘wdm’이 없음&lt;/p&gt;
+
+&lt;p&gt;⇒ 해결 : Gemfile에  gem ‘wdm’, ‘&amp;gt;= 0.1.0’을 추가&lt;/p&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Ruby30&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x64&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3.9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;commands&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serve&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;servlet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`require&apos;: cannot load such file -- webrick (LoadError)
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;⇒ 오류 발생2 : webrick 로들 불가&lt;/p&gt;
+
+&lt;p&gt;⇒ 해결 : ruby 3.0.0부터 webrick이 기본으로 포함된 gem에서 빠졌으므로, bundle add webrick으로 webrick 추가 후 실행&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jekyll build 작업 시 주의 사항 : 기본적으로 Jekyll build는 development로 세팅되며, 깃헙 페이지에 Publishing할 목적으로 build하는 경우, JEKYLL_ENV 환경변수의 값을 production으로 설정 후 build를 진행해야 한다.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Sungyoon Cho</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">1. Ruby 다운</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Python 문법</title>
-      <link href="https://cho-el.github.io/p-copy" rel="alternate" type="text/html" title="Python 문법" />
+      <link href="https://cho-el.github.io/p" rel="alternate" type="text/html" title="Python 문법" />
       <published>2020-06-08T01:40:00+09:00</published>
       <updated>2020-06-08T01:40:00+09:00</updated>
-      <id>https://cho-el.github.io/p%20copy</id>
-      <content type="html" xml:base="https://cho-el.github.io/p-copy">&lt;p&gt;ssssfffffffffffff&lt;/p&gt;</content>
+      <id>https://cho-el.github.io/p</id>
+      <content type="html" xml:base="https://cho-el.github.io/p">&lt;p&gt;ssssfffffffffffff&lt;/p&gt;</content>
 
       
       
@@ -67,11 +149,11 @@
   
     <entry>
       <title type="html">Python 문법</title>
-      <link href="https://cho-el.github.io/p" rel="alternate" type="text/html" title="Python 문법" />
+      <link href="https://cho-el.github.io/p-copy" rel="alternate" type="text/html" title="Python 문법" />
       <published>2020-06-08T01:40:00+09:00</published>
       <updated>2020-06-08T01:40:00+09:00</updated>
-      <id>https://cho-el.github.io/p</id>
-      <content type="html" xml:base="https://cho-el.github.io/p">&lt;p&gt;ssssfffffffffffff&lt;/p&gt;</content>
+      <id>https://cho-el.github.io/p%20copy</id>
+      <content type="html" xml:base="https://cho-el.github.io/p-copy">&lt;p&gt;ssssfffffffffffff&lt;/p&gt;</content>
 
       
       
