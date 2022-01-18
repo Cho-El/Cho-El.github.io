@@ -1,20 +1,16 @@
-jekyll :
-  name: jekyll
+speeches:
+  name: speeches
+  description: Some of the greatest words ever spoken.
+  cover: assets/images/speeches.jpg
+fiction:
+  name: fiction
   description: False
-  cover: assets/built/images/background-frontend.jpg
-python :
-  name: python
+  cover: False
+fables:
+  name: fables
+  description: A series of short stories that make you think.
+  cover: assets/images/fables.jpg
+getting-started:
+  name: getting-started
   description: False
-  cover: assets/built/images/background-frontend.jpg
-algorithm :
-  name: algorithm
-  description: False
-  cover: assets/built/images/background-frontend.jpg
-spring :
-  name: spring
-  description: False
-  cover: assets/built/images/background-frontend.jpg
-economy :
-  name: economy
-  description: False
-  cover: assets/built/images/background-frontend.jpg
+  cover: False
